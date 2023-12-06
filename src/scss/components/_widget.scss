@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(29, 40, 55, 1);
+  color: #fff;
+  text-align: center;
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .middle {
+    .middle-bottom {
+      h5 {
+        text-align: center;
+      }
+    }
+  }
+}
